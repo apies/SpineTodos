@@ -1,0 +1,7 @@
+<div class="item <%= 'done' if @done %>">
+	<div class="view" title="Double click to edit...">
+		<input type="checkbox"> <span><%= @name %></span> <a class="destroy"></a>
+	</div>
+</div>
+
+
